@@ -1,0 +1,133 @@
+{
+    "name": "Kaustubh Odak",
+    "landing": {
+        "title": "Hi, I'm Kaustubh",
+        "subtitles": [
+            "Full-stack developer🌐📱💻",
+            "Exploring cloud ☁️",
+            "Beginner in devops ♾️",
+            "Learning Blockchain ⛓️",
+            "Just getting started 📈"
+        ],
+        "professionalDetails": [
+            {
+                "alt": "kaustubh-odak",
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/kaustubh-odak/"
+            },
+            {
+                "alt": "kausko",
+                "icon": "github",
+                "link": "https://github.com/kausko"
+            },
+            {
+                "alt": "Email",
+                "icon": "gmail",
+                "link": "mailto://kaustubhodak1@gmail.com"
+            },
+            {
+                "alt": "Resume",
+                "icon": "adobeacrobatreader",
+                "link": "https://drive.google.com/file/d/1LzsaH1dL2aBjrwcOYfu71ciVHN9xIkQ8/view"
+            }
+        ]
+    },
+    "skills": {
+        "Languages known": [
+            "JavaScript", "Java", "C++", "Python", "HTML5", "CSS3", "TypeScript", "Kotlin", "Dart"
+        ],
+        "Frontend": [
+            "React", "Redux", "Next.js", "Gatsby", "Netlify", "Vercel", "Material-UI", "antdesign", "Bootstrap"
+        ],
+        "Backend, Database and Cloud": [
+            "Node.js", "Express", "FastAPI", "MongoDB", "MySQL", "PostgreSQL", 
+            { 
+                "alt": "Azure", 
+                "icon": "microsoftazure" 
+            }, 
+            "Heroku", "Firebase"
+        ],
+        "Mobile": [
+            {
+                "alt": "React_Native",
+                "icon": "react",
+                "backgroundColor": "#424242"
+            },
+            "Expo", "Android", "Flutter"
+        ]
+    },
+    "projects": {
+        "baseURI": "https://api.github.com/repos/kausko/",
+        "repositories": [
+            "1DBM",
+            "SysAdmin",
+            "cosmicom",
+            "PULSE-X",
+            "CLASP",
+            "QR-Code-Based-Voting-Platform"
+        ]
+    },
+    "experience": {
+        "Work Experience": [
+            {
+                "organization": "CloudDFN LLP",
+                "role": "Full Stack Developer",
+                "type": "Internship",
+                "startDate": "2020-07-20",
+                "endDate": "2021-01-20",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India",
+                "url": "https://www.linkedin.com/company/clouddfn-llp/",
+                "thumbnail": "https://media-exp1.licdn.com/dms/image/C4D0BAQE9r7z95odhhA/company-logo_100_100/0/1612201729277?e=1621468800&v=beta&t=P6JLLtsF_jyoKHkjScPNyyRyRUoRHQ8lvjP_uE7fjMY"
+            }
+        ],
+        "Volunteer Experience": [
+            {
+                "organization": "PICT IEEE Student Branch (PISB)",
+                "role": "Technical Head",
+                "type": "Member",
+                "startDate": "2019-07-01",
+                "endDate": "",
+                "city": "Pune",
+                "state": "Maharashtra",
+                "country": "India",
+                "url": "https://www.linkedin.com/company/pisbieee/",
+                "thumbnail": "https://media-exp1.licdn.com/dms/image/C510BAQENuh96s77pDA/company-logo_100_100/0/1532090522635?e=1621468800&v=beta&t=kCai0GfYoxPP7fkCYtCmakCSCawxX-6hgOEpt3XBt6w"
+            },
+            {
+                "organization": "Pictoreal",
+                "role": "Technical Head",
+                "type": "Member",
+                "startDate": "2019-07-01",
+                "endDate": "",
+                "city": "Pune",
+                "state": "Maharashtra",
+                "country": "India",
+                "url": "https://www.linkedin.com/company/pictoreal/",
+                "thumbnail": "https://media-exp1.licdn.com/dms/image/C560BAQEWwDYvn-AX2Q/company-logo_100_100/0/1594834075274?e=1621468800&v=beta&t=xUpMtgncCAf1JK7ApGHB6b0C96cYr7psukQ3Mkh_0gA"
+            }
+        ]
+    },
+    "about": {
+        "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with best UI practices.",
+        "picture": "https://avatars.githubusercontent.com/u/53346282?s=400&v=4",
+        "social": [
+            {
+                "alt": "kaustubh._.o",
+                "icon": "instagram",
+                "link": "https://www.instagram.com/kaustubh._.o/"
+            },
+            {
+                "alt": "KO_272",
+                "icon": "twitter",
+                "link": "https://twitter.com/KO_272"
+            },
+            {
+                "alt": "kaustubh#4489",
+                "icon": "discord",
+                "link": "https://discord.com/"
+            }
+        ]
+    }
+}

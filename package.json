@@ -4,16 +4,23 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.2",
+    "@primer/octicons-react": "^12.0.0",
     "clsx": "latest",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-typed": "^1.2.0",
+    "simple-icons": "^4.11.0"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@types/simple-icons": "^4.10.0"
   }
 }
