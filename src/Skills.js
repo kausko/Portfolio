@@ -1,5 +1,5 @@
 import { Avatar, Grid, Hidden, makeStyles, Tooltip, Typography, useMediaQuery, useTheme } from "@material-ui/core";
-import { Cancel } from "@material-ui/icons";
+import Cancel from "@material-ui/icons/Cancel";
 import clsx from "clsx";
 import Image from 'next/image'
 import simpleIcons from 'simple-icons'
@@ -65,6 +65,7 @@ export default function Skills() {
                 </Typography>
                 <Hidden mdDown>
                     <Image
+                        alt="Skills"
                         src="/skill.svg"
                         width="1139"
                         height="655"

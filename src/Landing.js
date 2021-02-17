@@ -5,7 +5,7 @@ import Image from 'next/image'
 import simpleIcons from 'simple-icons'
 import { landing } from '../data.json'
 import { iconify } from "./util";
-import { Cancel } from "@material-ui/icons";
+import Cancel from "@material-ui/icons/Cancel";
 
 const professionalDetails = landing.professionalDetails.map(({ alt, icon, link }) => {
     const ic = simpleIcons.get(iconify(icon)) || {
@@ -58,7 +58,7 @@ export default function Landing() {
                 <Typography variant="h1">
                     {landing.title}
                 </Typography>
-                <Typography variant={svar} className={classes.subtitle}>
+                <Typography variant={svar} component="h2" className={classes.subtitle}>
                      
                     <ReactTyped
                         strings={landing.subtitles}

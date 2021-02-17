@@ -1,4 +1,4 @@
-import { Avatar, Card, CardActionArea, CardContent, CardHeader, Grid, Hidden, makeStyles, Typography, useMediaQuery, useTheme } from "@material-ui/core";
+import { Avatar, Card, CardActionArea, CardHeader, Grid, Hidden, makeStyles, Typography, useMediaQuery, useTheme } from "@material-ui/core";
 import Image from 'next/image'
 import { DateRange, LocationCity } from '@material-ui/icons';
 import { experience } from '../data.json'
@@ -67,6 +67,7 @@ export default function Experience() {
                 </Typography>
                 <Hidden mdDown>
                     <Image
+                        alt="Experience"
                         src="/experience.svg"
                         width="996.46"
                         height="828.18"
@@ -106,6 +107,7 @@ export default function Experience() {
                                                         avatar={
                                                             <Avatar variant="rounded">
                                                                 <Image
+                                                                    alt={`${organization} logo`}
                                                                     src={thumbnail}
                                                                     layout="fill"
                                                                 />

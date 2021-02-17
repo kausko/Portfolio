@@ -1,4 +1,4 @@
-import { Card, CardActionArea, CardActions, CardContent, CardHeader, Chip, Grid, Hidden, Link, makeStyles, Tooltip, Typography } from "@material-ui/core";
+import { Card, CardActionArea, CardActions, CardContent, CardHeader, Chip, Grid, Hidden, makeStyles, Typography } from "@material-ui/core";
 import { RepoForkedIcon, RepoIcon, StarIcon } from '@primer/octicons-react';
 import Image from 'next/image'
 
@@ -27,6 +27,7 @@ export default function Projects({ data }) {
                 </Typography>
                 <Hidden mdDown>
                     <Image
+                        alt="Projects"
                         src="/projects.svg"
                         width="1144"
                         height="617.32"

@@ -4,7 +4,7 @@ import simpleIcons from 'simple-icons'
 import clsx from "clsx";
 import Image from 'next/image'
 import { iconify } from "./util";
-import { Cancel } from "@material-ui/icons";
+import Cancel from "@material-ui/icons/Cancel";
 
 const dpx = about.social.length*10 - 2
 
@@ -64,6 +64,7 @@ export default function About() {
                 <Grid item xs={12}>
                     <Avatar variant="rounded" className={classes.dp}>
                         <Image
+                            alt="Display Picture"
                             src={about.picture}
                             layout="fill"
                         />
