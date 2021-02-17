@@ -8,9 +8,11 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en" style={{ overflowX: "hidden" }}>
         <Head>
+          <meta charset='utf-8' />
           {/* PWA primary color */}
           <meta name="theme-color" content="black" />
           <meta name="description" content={`Portfolio of ${name}`}/>
+          <meta name='keywords' content={'Portfolio ' + name + ' skills projects experience resume'} />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
@@ -18,7 +20,7 @@ export default class MyDocument extends Document {
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-          <link rel="manifest" href="/site.webmanifest"></link>
+          <link rel="manifest" href="/manifest.webmanifest"></link>
         </Head>
         <body>
           <Main />
