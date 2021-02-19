@@ -91,6 +91,6 @@ Deployment with Vercel automatically sets up your repository for continuous depl
 - Production builds can also be tested using `yarn build` and `yarn start`
 
 ## Lighthouse stats
-![image](./public/Lighthouse.png)
+![image](https://raw.githubusercontent.com/kausko/Portfolio/master/public/Lighthouse.PNG?token=AMW772UHUMQCJSOBYSVYAQ3AHCTAY)
 
 *These stats were recorded on Google Chrome's incognito mode for Desktop. These stats are subject to change and may increase or decrease depending on tester's environment and/or changes to source code.*
