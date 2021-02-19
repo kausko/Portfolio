@@ -3,7 +3,8 @@
     "landing": {
         "title": "Hi, I'm Kaustubh",
         "subtitles": [
-            "Full-stack developer🌐📱💻",
+            "Full-stack developer 🌐",
+            "Cross-platform developer 📱💻",
             "Exploring cloud ☁️",
             "Beginner in devops ♾️",
             "Learning Blockchain ⛓️",
@@ -111,7 +112,7 @@
     },
     "about": {
         "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with best UI practices.",
-        "picture": "https://avatars.githubusercontent.com/u/53346282?s=400&v=4",
+        "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQEUcz30H5ardQ/profile-displayphoto-shrink_400_400/0/1613661946878?e=1619049600&v=beta&t=avtQLgnLxQVrmQws8rgXvCzaZM7ETC9Gdcm8yw8O6UI",
         "social": [
             {
                 "alt": "kaustubh._.o",
