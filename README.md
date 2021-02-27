@@ -55,6 +55,10 @@
                 "social": Object[] // Same as professionalDetails from Landing
             }
             ```
+        - Theme
+            - The theme object has two properties - light, and dark, for light mode and dark mode respectively.
+            - Despite the classification, theming is not limited to colors only. Breakpoints, typography, animations, etc. can also be modified. See [link](https://material-ui.com/customization/default-theme/) for more details.
+            - The theme object contains the default colors applied by MUI as an example. This can be modified or removed entirely.
         - **NOTE:**
             - Valid icon names can be obtained from simpleicons.org by hovering on the icons. The name appears at the bottom of the page as: `https://simpleicons.org/icons/<icon-name>.svg`
             - Original names of the brand may also be provided. Examples on how icon names are automatically corrected (not tested for all cases): 
