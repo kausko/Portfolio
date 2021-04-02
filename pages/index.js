@@ -41,7 +41,8 @@ export async function getStaticProps() {
   return {
     props: {
       projects: fullRepoData
-    }
+    },
+    revalidate: 60
   }
 }
 
