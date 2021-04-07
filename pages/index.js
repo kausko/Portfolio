@@ -22,7 +22,7 @@ export async function getStaticProps() {
   const repos = projects.repositories
   const reqInit = {
     headers: { 
-      'Authorization': `Basic ${Buffer.from(process.env.PAT, 'utf8').toString('base64')}`
+      'Authorization': `token ${process.env.PAT}`
     }
   }
   const fullRepoData = await Promise.allSettled(
