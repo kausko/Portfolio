@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: GitHits
         id: gh
-        uses: kausko/GitHits@HEAD
+        uses: kausko/GitHits@682317e8e28af2d049c6ad03b188b73131fdb0ba
         with:
           pat: ${{ secrets.PAT }}
       - name: Output
