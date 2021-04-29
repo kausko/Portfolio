@@ -3,6 +3,8 @@
 ![views](https://githits.vercel.app/api/views?user=kausko&repo=Portfolio&mode=dark&disable=Total)
 ![clones](https://githits.vercel.app/api/clones?user=kausko&repo=Portfolio&mode=dark&disable=Total)
 
+*Vercel's CI/CD is responsible for that clone count*
+
 ## Tech Stack
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
