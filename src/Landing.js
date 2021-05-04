@@ -50,15 +50,14 @@ export default function Landing() {
     const classes = useStyles();
     const theme = useTheme();
     const mdDown = useMediaQuery(theme.breakpoints.down('md'));
-    const svar = mdDown ? "h5" : "h4";
 
     return (
         <Grid container justify="center" alignItems="center" className={classes.cont}>
             <Grid item xs={12} lg={6}>
-                <Typography variant="h1">
+                <Typography variant={mdDown ? "h2" : "h1"}>
                     {landing.title}
                 </Typography>
-                <Typography variant={svar} component="h2" className={classes.subtitle}>
+                <Typography variant={mdDown ? "h5" : "h4"} component="h2" className={classes.subtitle}>
 
                     <ReactTyped
                         strings={landing.subtitles}

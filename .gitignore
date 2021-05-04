@@ -16,3 +16,5 @@ yarn-error.log*
 
 # Next.js
 /.next
+
+.vercel

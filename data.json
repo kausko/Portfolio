@@ -7,7 +7,6 @@
             "Cross-platform developer 📱💻",
             "Exploring cloud ☁️",
             "Beginner in devops ♾️",
-            "Learning Blockchain ⛓️",
             "Just getting started 📈"
         ],
         "professionalDetails": [
@@ -18,18 +17,18 @@
             },
             {
                 "alt": "kausko",
+                "icon": "stackoverflow",
+                "link": "https://stackoverflow.com/users/15832433/kausko"
+            },
+            {
+                "alt": "kausko",
                 "icon": "github",
                 "link": "https://github.com/kausko"
             },
             {
                 "alt": "Email",
                 "icon": "gmail",
-                "link": "mailto://kaustubhodak1@gmail.com"
-            },
-            {
-                "alt": "Resume",
-                "icon": "adobeacrobatreader",
-                "link": "https://drive.google.com/file/d/1LzsaH1dL2aBjrwcOYfu71ciVHN9xIkQ8/view"
+                "link": "mailto:iam@kaustubhodak.me,kaustubhodak1@gmail.com"
             }
         ]
     },
@@ -60,12 +59,12 @@
     "projects": {
         "baseURI": "https://api.github.com/repos/kausko/",
         "repositories": [
+            "Genrealize",
             "1DBM",
-            "SysAdmin",
             "cosmicom",
-            "PULSE-X",
-            "CLASP",
-            "QR-Code-Based-Voting-Platform"
+            "Discord-Google-Drive-Bot",
+            "GitHits",
+            "SysAdmin"
         ]
     },
     "experience": {
@@ -112,7 +111,7 @@
     },
     "about": {
         "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with best UI practices.",
-        "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQH6elr7gGolDg/profile-displayphoto-shrink_800_800/0/1613836108704?e=1619654400&v=beta&t=x2jcqYRlP0gYMVYozRpCTzXEW9dZjMbf5VseRcPB8f8",
+        "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQH6elr7gGolDg/profile-displayphoto-shrink_800_800/0/1613836108704?e=1625702400&v=beta&t=jrDzE_uXd51xt0_SIg4SL4RArUIv2ohzn9eXcwBa0UU",
         "social": [
             {
                 "alt": "kaustubh._.o",
