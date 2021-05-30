@@ -22,13 +22,17 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
           <link rel="manifest" href="/manifest.webmanifest"></link>
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-3S0X8Y5X3J"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-3S0X8Y5X3J');
-          </script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+  
+              gtag('config', 'G-3S0X8Y5X3J');
+              `
+            }}
+          />
         </Head>
         <body>
           <Main />
