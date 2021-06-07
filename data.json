@@ -60,11 +60,11 @@
         "baseURI": "https://api.github.com/repos/kausko/",
         "repositories": [
             "Genrealize",
-            "1DBM",
+            "Portfolio",
             "cosmicom",
             "Discord-Google-Drive-Bot",
             "GitHits",
-            "SysAdmin"
+            "1DBM"
         ]
     },
     "experience": {
@@ -79,7 +79,7 @@
                 "state": "Maharashtra",
                 "country": "India",
                 "url": "https://www.linkedin.com/company/clouddfn-llp/",
-                "thumbnail": "https://media-exp1.licdn.com/dms/image/C4D0BAQE9r7z95odhhA/company-logo_100_100/0/1612201729277?e=1621468800&v=beta&t=P6JLLtsF_jyoKHkjScPNyyRyRUoRHQ8lvjP_uE7fjMY"
+                "thumbnail": "/CDFN.jfif"
             }
         ],
         "Volunteer Experience": [
@@ -93,24 +93,24 @@
                 "state": "Maharashtra",
                 "country": "India",
                 "url": "https://www.linkedin.com/company/pisbieee/",
-                "thumbnail": "https://media-exp1.licdn.com/dms/image/C510BAQENuh96s77pDA/company-logo_100_100/0/1532090522635?e=1621468800&v=beta&t=kCai0GfYoxPP7fkCYtCmakCSCawxX-6hgOEpt3XBt6w"
+                "thumbnail": "/PISB.jfif"
             },
             {
                 "organization": "Pictoreal",
                 "role": "Technical Head",
                 "type": "Member",
                 "startDate": "2019-07-01",
-                "endDate": "",
+                "endDate": "2021-04-01",
                 "city": "Pune",
                 "state": "Maharashtra",
                 "country": "India",
                 "url": "https://www.linkedin.com/company/pictoreal/",
-                "thumbnail": "https://media-exp1.licdn.com/dms/image/C560BAQEWwDYvn-AX2Q/company-logo_100_100/0/1594834075274?e=1621468800&v=beta&t=xUpMtgncCAf1JK7ApGHB6b0C96cYr7psukQ3Mkh_0gA"
+                "thumbnail": "/Picto.jfif"
             }
         ]
     },
     "about": {
-        "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with best UI practices.",
+        "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with the best UI practices.",
         "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQH6elr7gGolDg/profile-displayphoto-shrink_800_800/0/1613836108704?e=1625702400&v=beta&t=jrDzE_uXd51xt0_SIg4SL4RArUIv2ohzn9eXcwBa0UU",
         "social": [
             {
@@ -144,8 +144,8 @@
             "palette": {
                 "type": "dark",
                 "background": {
-                    "paper": "#424242",
-                    "default": "#303030"
+                    "paper": "#303030",
+                    "default": "#212121"
                 }
             }
         }

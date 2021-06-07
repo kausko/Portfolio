@@ -49,7 +49,7 @@ export default function Landing() {
 
     const classes = useStyles();
     const theme = useTheme();
-    const mdDown = useMediaQuery(theme.breakpoints.down('md'));
+    const mdDown = useMediaQuery(theme.breakpoints.down('sm'));
 
     return (
         <Grid container justify="center" alignItems="center" className={classes.cont}>

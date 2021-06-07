@@ -1,9 +1,6 @@
 # Portfolio
 
 ![views](https://githits.vercel.app/api/views?user=kausko&repo=Portfolio&mode=dark&disable=Total)
-![clones](https://githits.vercel.app/api/clones?user=kausko&repo=Portfolio&mode=dark&disable=Total)
-
-*Vercel's CI/CD is responsible for that clone count*
 
 ## Tech Stack
 
@@ -71,6 +68,7 @@
                 - Node.js -> node-dot-js
                 - C++ -> cplusplus
             - I used images from [LinkedIn's CDN](media-exp1.licdn.com) for the Experience and About sections. To use other sources, see additional configurations below.
+    - `pages/_document.js` with your Google Analytics code.
     - All `.png` icons and `manifest.webmanifest` in the public folder. There are many ways of generating these. I used:
         - [Favicon](https://favicon.io/) for generating favicons
         - [Simicart](https://www.simicart.com/manifest-generator.html/) for generating manifest information and files
@@ -95,14 +93,16 @@
 ## How to update content
 Deployment with Vercel automatically sets up your repository for continuous deployment. Changes committed and pushed to master should reflect in a few minutes on your site. If your deployment fails, check ![image](https://img.shields.io/badge/Build%20Logs-ffffff) on Vercel.
 
-## Testing locally
-- Requirements: Node, NPM and Yarn (LTS)
-- Navigate to your cloned project, and run `yarn` or `npm i` on a terminal
+## Running locally
+- Requirements: Node, NPM and Yarn (LTS)*
+- Navigate to your cloned project, and run `yarn` on a terminal
 - Create a file named `.env.local` and add the PAT environment variable here (`PAT=<40-character-pat>`)
-- Run `yarn dev` or `npm run dev` to test the Next.js app on `localhost:3000`
+- Run `yarn dev` to test the Next.js app on `localhost:3000`
 - Production builds can also be tested using `yarn build` and `yarn start`
+
+*`npm` commands also work
 
 ## Lighthouse stats
 ![image](https://raw.githubusercontent.com/kausko/Portfolio/master/public/Lighthouse.PNG?token=AMW772UHUMQCJSOBYSVYAQ3AHCTAY)
 
-*These stats were recorded on Google Chrome's incognito mode for Desktop. These stats are subject to change and may increase or decrease depending on tester's environment and/or changes to source code.*
+*These stats were recorded on Google Chrome's incognito mode for Desktop. These stats are subject to change and may increase or decrease depending on the tester's environment and/or changes to source code.*
