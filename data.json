@@ -111,7 +111,7 @@
     },
     "about": {
         "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with the best UI practices.",
-        "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQH6elr7gGolDg/profile-displayphoto-shrink_800_800/0/1613836108704?e=1625702400&v=beta&t=jrDzE_uXd51xt0_SIg4SL4RArUIv2ohzn9eXcwBa0UU",
+        "picture": "/profile.jpg",
         "social": [
             {
                 "alt": "kaustubh._.o",
