@@ -16,7 +16,7 @@ const wrapper = (sk = []) => sk.map(v => {
     return {
         alt: v.alt || v || ic.title,
         backgroundColor: v.backgroundColor || ('#' + ic.hex),
-        icon: ic.component || <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        icon: ic.component || <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" xmlnsXlink="http://www.w3.org/1999/xlink">
             <title>{ic.title}</title>
             <path d={ic.path} fill="white" />
         </svg>,

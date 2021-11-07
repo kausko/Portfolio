@@ -20,7 +20,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
+    "deploy": "npx vercel --prod"
   },
   "devDependencies": {
     "@types/simple-icons": "^4.10.0"
