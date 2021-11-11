@@ -1,12 +1,13 @@
-import React, { useContext } from 'react';
-import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger } from '@material-ui/core';
-import { ThemeContext } from '../src/theme';
+import React, { useCallback } from 'react';
+import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
 import Landing from '../src/Landing';
 import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
 import About from '../src/About';
 import { name, projects } from '../data.json';
+import { darkTheme, lightTheme } from '../src/theme';
+import { Brightness4, Brightness7 } from '@material-ui/icons';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -46,13 +47,17 @@ export async function getStaticProps() {
   }
 }
 
-export default function Index({ projects }) {
+export default function Index({ projects, setTheme }) {
 
   const classes = useStyles()
 
-  const { theme, toggleTheme } = useContext(ThemeContext)
-
   const trigger = useScrollTrigger({ disableHysteresis: true })
+
+  const theme = useTheme()
+
+  const toggleTheme = useCallback(() => {
+    setTheme(theme => theme.palette.type === 'dark' ? lightTheme : darkTheme)
+  }, [setTheme])
 
   return (
     <div className={classes.root}>
@@ -62,7 +67,7 @@ export default function Index({ projects }) {
             { name }
           </Typography>
           <IconButton edge="end" color="inherit" onClick={toggleTheme}>
-            {theme.palette.type === "dark" ? "☀️" : "🌑"}
+            {theme.palette.type === "dark" ? <Brightness7/> : <Brightness4/>}
           </IconButton>
         </Toolbar>
       </AppBar>

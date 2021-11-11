@@ -1,22 +1,21 @@
-import React, { useContext } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
-import { MuiThemeProvider } from '@material-ui/core';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import { ThemeContext, ThemeProvider } from '../src/theme';
+import { MuiThemeProvider, useMediaQuery, CssBaseline } from '@material-ui/core';
+import { darkTheme, lightTheme } from '../src/theme';
 
-function ThemeConsumer({ Component, pageProps }) {
-  const { theme } = useContext(ThemeContext)
-  return <MuiThemeProvider theme={theme}>
-    {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-    <CssBaseline />
-    <Component {...pageProps} />
-  </MuiThemeProvider>
-}
+export default function MyApp({ Component, pageProps }) {
 
-export default function MyApp(props) {
+  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)')
+  const [theme, setTheme] = useState(
+    prefersDarkMode ? darkTheme : lightTheme
+  )
 
-  React.useEffect(() => {
+  useEffect(() => {
+    setTheme(prefersDarkMode ? darkTheme : lightTheme)
+  }, [prefersDarkMode])
+
+  useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector('#jss-server-side');
     if (jssStyles) {
@@ -30,9 +29,10 @@ export default function MyApp(props) {
         <title>Kaustubh Odak</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
-      <ThemeProvider>
-        <ThemeConsumer {...props}/>
-      </ThemeProvider>
+      <MuiThemeProvider theme={theme}>
+        <CssBaseline />
+        <Component {...pageProps} setTheme={setTheme}/>
+      </MuiThemeProvider>
     </React.Fragment>
   );
 }
