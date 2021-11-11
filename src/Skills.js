@@ -2,9 +2,10 @@ import { Avatar, Fade, Grid, Hidden, makeStyles, Tooltip, Typography, useMediaQu
 import Cancel from "@material-ui/icons/Cancel";
 import clsx from "clsx";
 import Image from 'next/image'
-import { useEffect, useRef, useState } from "react";
+import { useRef} from "react";
 import simpleIcons from 'simple-icons'
 import { skills } from '../data.json'
+import useAnimate from "./useAnimate";
 import { iconify } from "./util";
 
 const wrapper = (sk = []) => sk.map(v => {
@@ -58,17 +59,8 @@ export default function Skills() {
     const align = mdDown ? "center" : "flex-end"
     const textAlign = mdDown ? "center" : "right"
 
-    const [animate, setAnimate] = useState(false)
-    const animRef = useRef()
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(entries => {
-            if (entries.some(entry => entry.isIntersecting))
-                setAnimate(true)
-        })
-        observer.observe(animRef.current)
-        return () => observer.unobserve(animRef.current)
-    }, [])
+    const animRef = useRef(null)
+    const animate = useAnimate(animRef)
 
     return (
         <Grid container justify="center" alignItems="center" spacing={10} className={classes.cont}>

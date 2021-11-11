@@ -2,7 +2,8 @@ import { Avatar, Card, CardActionArea, CardHeader, Fade, Grid, Hidden, makeStyle
 import Image from 'next/image'
 import { DateRange, LocationCity } from '@material-ui/icons';
 import { experience } from '../data.json'
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
+import useAnimate from "./useAnimate";
 
 const useStyles = makeStyles(theme => ({
     cont: {
@@ -60,17 +61,8 @@ export default function Experience() {
     const align = mdDown ? "center" : "flex-end"
     const textAlign = mdDown ? "center" : "right"
 
-    const [animate, setAnimate] = useState(false)
-    const animRef = useRef()
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(entries => {
-            if (entries.some(entry => entry.isIntersecting))
-                setAnimate(true)
-        })
-        observer.observe(animRef.current)
-        return () => observer.unobserve(animRef.current)
-    }, [])
+    const animRef = useRef(null)
+    const animate = useAnimate(animRef)
 
     return (
         <Grid direction="row" container justify="center" alignItems="center" spacing={10} className={classes.cont}>
