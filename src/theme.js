@@ -1,5 +1,6 @@
 import { createMuiTheme } from "@material-ui/core";
-import { theme } from "../data.json";
+import data from "../data.json";
+const { theme } = data
 
 export const lightTheme = createMuiTheme(
   (theme && theme.light && Object.keys(theme.light).length > 0) ? theme.light :

@@ -4,9 +4,10 @@ import clsx from "clsx";
 import Image from 'next/image'
 import { useRef} from "react";
 import simpleIcons from 'simple-icons'
-import { skills } from '../data.json'
+import data from '../data.json'
 import useAnimate from "./useAnimate";
 import { iconify } from "./util";
+const { skills } = data
 
 const wrapper = (sk = []) => sk.map(v => {
     const ic = simpleIcons.get(typeof v === "string" ? iconify(v) : iconify(v.icon)) || {

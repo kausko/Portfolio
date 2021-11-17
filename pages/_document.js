@@ -1,7 +1,8 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
-import { name } from '../data.json'
+import data from '../data.json'
+const { name } = data
 
 export default class MyDocument extends Document {
   render() {
@@ -21,7 +22,7 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
           <link rel="manifest" href="/manifest.webmanifest"></link>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-3S0X8Y5X3J"></script>
+          {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-3S0X8Y5X3J"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -32,7 +33,7 @@ export default class MyDocument extends Document {
               gtag('config', 'G-3S0X8Y5X3J');
               `
             }}
-          />
+          /> */}
         </Head>
         <body>
           <Main />

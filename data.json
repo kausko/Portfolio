@@ -34,18 +34,40 @@
     },
     "skills": {
         "Languages known": [
-            "JavaScript", "Java", "C++", "Python", "HTML5", "CSS3", "TypeScript", "Kotlin", "Dart"
+            "JavaScript",
+            "Java",
+            "C++",
+            "Python",
+            "HTML5",
+            "CSS3",
+            "TypeScript",
+            "Kotlin",
+            "Dart"
         ],
         "Frontend": [
-            "React", "Redux", "Next.js", "Gatsby", "Netlify", "Vercel", "Material-UI", "antdesign", "Bootstrap"
+            "React",
+            "Redux",
+            "Next.js",
+            "Gatsby",
+            "Netlify",
+            "Vercel",
+            "Material-UI",
+            "antdesign",
+            "Bootstrap"
         ],
         "Backend, Database and Cloud": [
-            "Node.js", "Express", "FastAPI", "MongoDB", "MySQL", "PostgreSQL", 
-            { 
-                "alt": "Azure", 
-                "icon": "microsoftazure" 
-            }, 
-            "Heroku", "Firebase"
+            "Node.js",
+            "Express",
+            "FastAPI",
+            "MongoDB",
+            "MySQL",
+            "PostgreSQL",
+            {
+                "alt": "Azure",
+                "icon": "microsoftazure"
+            },
+            "Heroku",
+            "Firebase"
         ],
         "Mobile": [
             {
@@ -53,7 +75,9 @@
                 "icon": "react",
                 "backgroundColor": "#424242"
             },
-            "Expo", "Android", "Flutter"
+            "Expo",
+            "Android",
+            "Flutter"
         ]
     },
     "projects": {
@@ -80,6 +104,18 @@
                 "country": "India",
                 "url": "https://www.linkedin.com/company/clouddfn-llp/",
                 "thumbnail": "/CDFN.jfif"
+            },
+            {
+                "organization": "NonceBlox Pvt. Ltd.",
+                "role": "Full Stack Developer",
+                "type": "Internship",
+                "startDate": "2021-07-01",
+                "endDate": "2021-10-01",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "url": "https://www.linkedin.com/company/clouddfn-llp/",
+                "thumbnail": "https://media-exp1.licdn.com/dms/image/C510BAQFlYpD4CBqdNg/company-logo_200_200/0/1519500564654?e=1645056000&v=beta&t=zNmk6RfkUEj3vPWJ4cFEBvtIPdv5vOnBlgeSvMhnTa4"
             }
         ],
         "Volunteer Experience": [

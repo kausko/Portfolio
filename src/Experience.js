@@ -1,9 +1,10 @@
 import { Avatar, Card, CardActionArea, CardHeader, Fade, Grid, Hidden, makeStyles, Typography, useMediaQuery, useTheme } from "@material-ui/core";
 import Image from 'next/image'
 import { DateRange, LocationCity } from '@material-ui/icons';
-import { experience } from '../data.json'
+import data from '../data.json'
 import { useRef } from "react";
 import useAnimate from "./useAnimate";
+const { experience } = data
 
 const useStyles = makeStyles(theme => ({
     cont: {

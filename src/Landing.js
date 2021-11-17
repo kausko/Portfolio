@@ -3,9 +3,10 @@ import ReactTyped from "react-typed";
 import clsx from "clsx";
 import Image from 'next/image'
 import simpleIcons from 'simple-icons'
-import { landing } from '../data.json'
+import data from '../data.json'
 import { iconify } from "./util";
 import Cancel from "@material-ui/icons/Cancel";
+const { landing } = data
 
 const professionalDetails = landing.professionalDetails.map(({ alt, icon, link }) => {
     const ic = simpleIcons.get(iconify(icon)) || {

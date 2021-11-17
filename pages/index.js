@@ -5,9 +5,10 @@ import Skills from '../src/Skills';
 import Projects from '../src/Projects';
 import Experience from '../src/Experience';
 import About from '../src/About';
-import { name, projects } from '../data.json';
+import data from '../data.json';
 import { darkTheme, lightTheme } from '../src/theme';
 import { Brightness4, Brightness7 } from '@material-ui/icons';
+const { name, projects } = data
 
 const useStyles = makeStyles(theme => ({
   root: {
