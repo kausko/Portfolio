@@ -34,13 +34,13 @@
     },
     "skills": {
         "Languages known": [
+            "TypeScript",
             "JavaScript",
             "Java",
             "C++",
             "Python",
             "HTML5",
             "CSS3",
-            "TypeScript",
             "Kotlin",
             "Dart"
         ],
@@ -83,12 +83,12 @@
     "projects": {
         "baseURI": "https://api.github.com/repos/kausko/",
         "repositories": [
-            "Genrealize",
             "Portfolio",
+            "Genrealize",
             "cosmicom",
             "Discord-Google-Drive-Bot",
             "GitHits",
-            "1DBM"
+            "Mail-em"
         ]
     },
     "experience": {
@@ -115,7 +115,7 @@
                 "state": "Delhi",
                 "country": "India",
                 "url": "https://www.linkedin.com/company/clouddfn-llp/",
-                "thumbnail": "https://media-exp1.licdn.com/dms/image/C510BAQFlYpD4CBqdNg/company-logo_200_200/0/1519500564654?e=1645056000&v=beta&t=zNmk6RfkUEj3vPWJ4cFEBvtIPdv5vOnBlgeSvMhnTa4"
+                "thumbnail": "https://www.nonceblox.com/ton3.png"
             }
         ],
         "Volunteer Experience": [
@@ -146,25 +146,8 @@
         ]
     },
     "about": {
-        "description": "I am a full-stack cross-platform app developer, pursuing my B.E in Computer Engineering from Pune Institute of Computer Technology. I strive to make meaningful applications with the best UI practices.",
-        "picture": "/profile.jpg",
-        "social": [
-            {
-                "alt": "kaustubh._.o",
-                "icon": "instagram",
-                "link": "https://www.instagram.com/kaustubh._.o/"
-            },
-            {
-                "alt": "KO_272",
-                "icon": "twitter",
-                "link": "https://twitter.com/KO_272"
-            },
-            {
-                "alt": "kaustubh#4489",
-                "icon": "discord",
-                "link": "https://discord.com/"
-            }
-        ]
+        "description": "I am a full-stack cross-platform app developer, pursuing my M.S. in Computer Science from Georgia Tech. I strive to make meaningful applications with the best UI practices.",
+        "picture": "/profile.JPG"
     },
     "theme": {
         "light": {
