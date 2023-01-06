@@ -85,10 +85,10 @@
         "repositories": [
             "Portfolio",
             "Genrealize",
-            "cosmicom",
             "Discord-Google-Drive-Bot",
             "GitHits",
-            "Mail-em"
+            "Mail-em",
+            "JAutoLayout"
         ]
     },
     "experience": {
